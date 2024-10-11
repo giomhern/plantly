@@ -11,8 +11,12 @@ import { theme } from "../consts/theme";
 import PlantlyImage from "../components/PlantlyImage";
 import PlantlyButton from "../components/PlantlyButton";
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
+import { useRouter } from "expo-router";
+import { usePlantsStore } from "../store/plantsStore";
 
 export default function CreatePlant() {
+  const router = useRouter();
+  const addPlant = usePlantsStore((state) => state.addPlant);
   const [name, setName] = useState<string>();
   const [days, setDays] = useState<string>();
 
@@ -36,6 +40,8 @@ export default function CreatePlant() {
       );
     }
 
+    addPlant(name, Number(days));
+    router.navigate("/")
     console.log("Adding plant", name, days);
   };
   return (
