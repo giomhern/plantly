@@ -4,7 +4,7 @@ import { theme } from "../../consts/theme";
 export default function Page() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Hello World</Text>
+      <Text style={styles.text}>Hi, plant lover!</Text>
     </View>
   );
 }
@@ -17,6 +17,6 @@ const styles = StyleSheet.create({
     backgroundColor: theme.colorWhite,
   },
   text: {
-    fontSize: 24,
+    fontSize: 20,
   },
 });
