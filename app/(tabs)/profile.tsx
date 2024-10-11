@@ -2,13 +2,13 @@ import { StyleSheet, Text, Button, View } from "react-native";
 import React from "react";
 import { theme } from "../../consts/theme";
 import { useUserStore } from "../../store/userStore";
+import PlantlyButton from "../../components/PlantlyButton";
 
 const Profile = () => {
   const toggleHasOnboarded = useUserStore((state) => state.toggleHasOnboarded);
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Profile</Text>
-      <Button title="Let me in" onPress={toggleHasOnboarded} />
+      <PlantlyButton title="Back to onboarding" onPress={toggleHasOnboarded} />
     </View>
   );
 };
