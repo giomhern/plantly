@@ -10,12 +10,13 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		28D0FE30234A450FB30ACCBC /* Caveat_400Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2AE612A56AE440C8D4E265F /* Caveat_400Regular.ttf */; };
+		2A2E51EF83C558CCD01FA72B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 5CA1586F86F19B9D9D67A35D /* PrivacyInfo.xcprivacy */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
 		96905EF65AED1B983A6B3ABC /* libPods-Plantly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-Plantly.a */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		DF0AE7037C657B475AAD2EFA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A1F695695DED0A90899BBE17 /* PrivacyInfo.xcprivacy */; };
-		EA3623B17F654F26BB8B1CEB /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFFC17C9B0D4A63B1450C4E /* noop-file.swift */; };
+		EB4490638D82472197232535 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4215F65E0704EB9A7E9F32F /* noop-file.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,15 +26,16 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Plantly/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Plantly/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Plantly/main.m; sourceTree = "<group>"; };
+		45500511915141B48F982281 /* Plantly-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "Plantly-Bridging-Header.h"; path = "Plantly/Plantly-Bridging-Header.h"; sourceTree = "<group>"; };
 		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-Plantly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Plantly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BFFC17C9B0D4A63B1450C4E /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "Plantly/noop-file.swift"; sourceTree = "<group>"; };
+		5CA1586F86F19B9D9D67A35D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Plantly/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		6C2E3173556A471DD304B334 /* Pods-Plantly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plantly.debug.xcconfig"; path = "Target Support Files/Pods-Plantly/Pods-Plantly.debug.xcconfig"; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-Plantly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plantly.release.xcconfig"; path = "Target Support Files/Pods-Plantly/Pods-Plantly.release.xcconfig"; sourceTree = "<group>"; };
-		A1F695695DED0A90899BBE17 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Plantly/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = Plantly/SplashScreen.storyboard; sourceTree = "<group>"; };
-		B87EF11A5D6B4C9796130D38 /* Plantly-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "Plantly-Bridging-Header.h"; path = "Plantly/Plantly-Bridging-Header.h"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
+		C4215F65E0704EB9A7E9F32F /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "Plantly/noop-file.swift"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F2AE612A56AE440C8D4E265F /* Caveat_400Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Caveat_400Regular.ttf; path = "../node_modules/@expo-google-fonts/caveat/Caveat_400Regular.ttf"; sourceTree = "<group>"; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-Plantly/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E079A552975426BBFC3E96E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2AE612A56AE440C8D4E265F /* Caveat_400Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* Plantly */ = {
 			isa = PBXGroup;
 			children = (
@@ -59,9 +70,9 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				6BFFC17C9B0D4A63B1450C4E /* noop-file.swift */,
-				B87EF11A5D6B4C9796130D38 /* Plantly-Bridging-Header.h */,
-				A1F695695DED0A90899BBE17 /* PrivacyInfo.xcprivacy */,
+				C4215F65E0704EB9A7E9F32F /* noop-file.swift */,
+				45500511915141B48F982281 /* Plantly-Bridging-Header.h */,
+				5CA1586F86F19B9D9D67A35D /* PrivacyInfo.xcprivacy */,
 			);
 			name = Plantly;
 			sourceTree = "<group>";
@@ -91,6 +102,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
 				D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */,
+				0E079A552975426BBFC3E96E /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,13 +159,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Plantly" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				240C279BFF49FAE06EE740DD /* [Expo] Configure project */,
+				42259FF7502B91FAFE91DE03 /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				9E8EB0308EC17C8752BDE4E0 /* [CP] Embed Pods Frameworks */,
+				D69F3911E4A8886377BE8203 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -203,7 +215,8 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				DF0AE7037C657B475AAD2EFA /* PrivacyInfo.xcprivacy in Resources */,
+				28D0FE30234A450FB30ACCBC /* Caveat_400Regular.ttf in Resources */,
+				2A2E51EF83C558CCD01FA72B /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +260,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		240C279BFF49FAE06EE740DD /* [Expo] Configure project */ = {
+		42259FF7502B91FAFE91DE03 /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -296,7 +309,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Plantly/Pods-Plantly-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9E8EB0308EC17C8752BDE4E0 /* [CP] Embed Pods Frameworks */ = {
+		D69F3911E4A8886377BE8203 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -324,7 +337,7 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
-				EA3623B17F654F26BB8B1CEB /* noop-file.swift in Sources */,
+				EB4490638D82472197232535 /* noop-file.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

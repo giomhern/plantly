@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Button } from "react-native";
+import { StyleSheet, Text, View, Button, Platform } from "react-native";
 import { theme } from "../consts/theme";
 import React from "react";
 import { useUserStore } from "../store/userStore";
@@ -53,8 +53,12 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   tagline: {
-    fontSize: 24,
+    fontSize: 34,
     color: theme.colorWhite,
     textAlign: "center",
+    fontFamily: Platform.select({
+      ios: "Caveat-Regular",
+      android: "Caveat_400Regular",
+    }),
   },
 });
