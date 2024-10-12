@@ -17,10 +17,9 @@ const PlantlyImage = ({ size, imageUri }: Props) => {
   return (
     <Image
       source={imageUri ? { uri: imageUri } : require("../assets/plantly.png")}
-      style={{ width: imageSize, height: imageSize }}
+      style={{ width: imageSize, height: imageSize, borderRadius: 10 }}
     />
   );
 };
 
 export default PlantlyImage;
-

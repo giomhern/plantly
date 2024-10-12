@@ -1,9 +1,9 @@
 import { StyleSheet, Text, View, FlatList } from "react-native";
-import { theme } from "../../consts/theme";
+import { theme } from "../../../consts/theme";
 import { useRouter } from "expo-router";
-import { usePlantsStore } from "../../store/plantsStore";
-import PlantlyCard from "../../components/PlantlyCard";
-import PlantlyButton from "../../components/PlantlyButton";
+import { usePlantsStore } from "../../../store/plantsStore";
+import PlantlyCard from "../../../components/PlantlyCard";
+import PlantlyButton from "../../../components/PlantlyButton";
 
 export default function Page() {
   const router = useRouter();
